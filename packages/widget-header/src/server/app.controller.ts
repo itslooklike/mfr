@@ -1,5 +1,5 @@
 import { Controller, Get, Res, Req } from '@nestjs/common'
-import { getWidgetResponse } from '@mf/builder/server'
+import { getWidgetResponse } from '@mfr/builder/server'
 import type { Response } from 'express'
 
 // import App from '../app/App.svelte'

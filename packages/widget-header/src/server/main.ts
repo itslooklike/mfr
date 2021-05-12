@@ -1,6 +1,5 @@
 import { NestFactory } from '@nestjs/core'
 import { Logger } from '@nestjs/common'
-import cookieParser from 'cookie-parser'
 
 import { AppModule } from './app.module'
 
@@ -16,7 +15,6 @@ export default async function bootstrap(chunks) {
   const logger = new Logger()
   const app = await NestFactory.create(AppModule)
   app.enableCors()
-  app.use(cookieParser())
   app.use(chunksMiddleware(chunks))
   await app.listen(SERVER_PORT, SERVER_HOST, () => {
     logger.log(`[${__APP_ID__}] start on: http://${SERVER_HOST}:${SERVER_PORT}`)

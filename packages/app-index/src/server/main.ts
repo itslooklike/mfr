@@ -21,7 +21,7 @@ export default async function bootstrap(containerAssets: Parameters) {
 
   app.use(compression())
   app.use(
-    '/widget/@mf/:id',
+    '/widget/@mfr/:id',
     createProxyMiddleware({
       changeOrigin: true,
       router: (req) => {

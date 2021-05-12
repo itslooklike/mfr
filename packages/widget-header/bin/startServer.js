@@ -1,4 +1,4 @@
-const { buildedServerFilePath, clientChunksPath } = require('@mf/builder')
+const { buildedServerFilePath, clientChunksPath } = require('@mfr/builder')
 
 const server = require(buildedServerFilePath).default
 const chunks = require(clientChunksPath)

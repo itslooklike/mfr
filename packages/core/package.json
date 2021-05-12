@@ -1,0 +1,29 @@
+{
+  "name": "@mfr/core",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/core.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}

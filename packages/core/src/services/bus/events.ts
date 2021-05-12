@@ -1,0 +1,1 @@
+export const TEXT_MESSAGE = '__MRF_BUS_EVENT/TEXT_MESSAGE'

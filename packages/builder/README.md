@@ -42,6 +42,6 @@ ENV переменные, которые нужно прокинуть в `webpa
 npm link
 
 # в приложении, к которому нужно прилинковать билдер
-npm link @mf/builder
-npm unlink @mf/builder --no-save && npm i
+npm link @mfr/builder
+npm unlink @mfr/builder --no-save && npm i
 ```

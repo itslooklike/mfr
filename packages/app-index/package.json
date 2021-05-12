@@ -1,5 +1,5 @@
 {
-  "name": "@mf/app-index",
+  "name": "@mfr/app-index",
   "version": "0.0.1",
   "private": true,
   "main": "./server/server.js",
@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
+    "@mfr/core": "*",
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",

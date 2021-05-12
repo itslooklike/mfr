@@ -1,4 +1,4 @@
-import { hydrateApp } from '@mf/builder/client'
+import { hydrateApp } from '@mfr/builder/client'
 import App from '../app/App.svelte'
 
 const appId = __APP_ID__
