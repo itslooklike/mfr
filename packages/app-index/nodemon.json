@@ -1,0 +1,6 @@
+{
+  "watch": ["src", "webpack", "static"],
+  "ext": "js,jsx,ts,tsx,json",
+  "delay": "2500",
+  "exec": "npm run build:start"
+}
